@@ -69090,7 +69090,7 @@ function Example() {
     className: "card"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-header text-center"
-  }, "React.YurMar")))));
+  }, "React.YurMar - Welcome")))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Example);
