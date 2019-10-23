@@ -8,7 +8,7 @@ function Example() {
             <div className="row justify-content-center">
                 <div className="col-md-12">
                     <div className="card">
-                        <div className="card-header text-center">React.YurMar - Welcome!</div>
+                        <div className="card-header text-center">React.YurMar v.1.0</div>
                     </div>
                 </div>
             </div>
