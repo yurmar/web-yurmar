@@ -69902,7 +69902,7 @@ var Header = function Header() {
     className: "title"
   }, "YurMar"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "desc"
-  }, "Web developer - 3D print - Video editing"));
+  }, "Web developing - 3D print - Video editing"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
