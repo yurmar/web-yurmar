@@ -1,0 +1,33 @@
+@import '../../../../sass/variables';
+
+.Header {
+    width: 100%;
+    background-color: $dark;
+    color: #ffffff;
+    padding: 20px 0;
+
+    .title,
+    .desc {
+        text-transform: uppercase;
+    }
+
+    .title {
+        font-size: 40px;
+        font-family: $roboto-font;
+
+        span{
+            color: $red;
+        }
+    }
+
+    .desc {
+        color: $gray;
+        font-size: 23px;
+        opacity: .7;
+    }
+
+    div {
+        line-height: 1.2;
+    }
+}
+

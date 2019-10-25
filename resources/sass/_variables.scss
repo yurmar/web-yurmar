@@ -1,8 +1,29 @@
 // Body
 $body-bg: #f8fafc;
 
+/* roboto-regular - cyrillic_latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+    url('../../../../sass/fonts/roboto-v20-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../../../../sass/fonts/roboto-v20-cyrillic_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pt-sans-narrow-regular - latin */
+@font-face {
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PT Sans Narrow'), local('PTSans-Narrow'),
+    url('../../../../sass/fonts/pt-sans-narrow-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../../../../sass/fonts/pt-sans-narrow-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 // Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
+$roboto-font: 'Roboto', sans-serif;
+$font-family-sans-serif: 'PT Sans Narrow', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
@@ -11,9 +32,11 @@ $blue: #3490dc;
 $indigo: #6574cd;
 $purple: #9561e2;
 $pink: #f66d9b;
-$red: #e3342f;
+$red: #FF0000;
 $orange: #f6993f;
 $yellow: #ffed4a;
 $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
+$dark: #272323;
+$gray: #707070;
