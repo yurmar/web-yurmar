@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import Header from '../../components/Main/Header/Header'
 import Footer from '../../components/Main/Footer/Footer'
+import Navigatiion from '../../components/Main/Navigation/Navigation'
 
 export default class Layout extends Component {
     render() {
@@ -8,6 +9,7 @@ export default class Layout extends Component {
             <div>
                 <header>
                     <Header />
+                    <Navigatiion />
                 </header>
 
                 <main>
