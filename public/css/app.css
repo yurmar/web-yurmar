@@ -6,7 +6,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: local("Roboto"), local("Roboto-Regular"), url(/fonts/roboto-v20-cyrillic_latin-regular.woff2?9af3b948743adc65907bf6b73aba735e) format("woff2"), url(/fonts/roboto-v20-cyrillic_latin-regular.woff?c2bf54bc567401239fcc81b063df7423) format("woff");
+  src: local("Roboto"), local("Roboto-Regular"), url("/roboto-v20-cyrillic_latin-regular.woff2") format("woff2"), url("/roboto-v20-cyrillic_latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -16,7 +16,7 @@
   font-family: "PT Sans Narrow";
   font-style: normal;
   font-weight: 400;
-  src: local("PT Sans Narrow"), local("PTSans-Narrow"), url(/fonts/pt-sans-narrow-v11-latin-regular.woff2?3cb787e72f6fa50684873ddb2718559f) format("woff2"), url(/fonts/pt-sans-narrow-v11-latin-regular.woff?b7ed38087559d9362d906b1a18330dfc) format("woff");
+  src: local("PT Sans Narrow"), local("PTSans-Narrow"), url("/pt-sans-narrow-v11-latin-regular.woff2") format("woff2"), url("/pt-sans-narrow-v11-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 

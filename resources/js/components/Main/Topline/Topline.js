@@ -1,7 +1,7 @@
 import React from 'react'
-import './Header.module.scss'
+import './Topline.module.scss'
 
-const Header = () => {
+const Topline = () => {
     return (
         <div className="Header text-center">
             <div className="title">YurMar</div>
@@ -10,4 +10,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Topline

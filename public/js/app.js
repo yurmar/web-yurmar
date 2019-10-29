@@ -6281,33 +6281,12 @@ module.exports = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
 exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "/* roboto-regular - cyrillic_latin */\n@font-face {\n  font-family: \"Roboto\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Roboto\"), local(\"Roboto-Regular\"), url(" + escape(__webpack_require__(/*! ../../../../sass/fonts/roboto-v20-cyrillic_latin-regular.woff2 */ "./resources/sass/fonts/roboto-v20-cyrillic_latin-regular.woff2")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ../../../../sass/fonts/roboto-v20-cyrillic_latin-regular.woff */ "./resources/sass/fonts/roboto-v20-cyrillic_latin-regular.woff")) + ") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n/* pt-sans-narrow-regular - latin */\n@font-face {\n  font-family: \"PT Sans Narrow\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"PT Sans Narrow\"), local(\"PTSans-Narrow\"), url(" + escape(__webpack_require__(/*! ../../../../sass/fonts/pt-sans-narrow-v11-latin-regular.woff2 */ "./resources/sass/fonts/pt-sans-narrow-v11-latin-regular.woff2")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ../../../../sass/fonts/pt-sans-narrow-v11-latin-regular.woff */ "./resources/sass/fonts/pt-sans-narrow-v11-latin-regular.woff")) + ") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n.Footer {\n  width: 100%;\n  background-color: #272323;\n  color: #ffffff;\n  padding: 20px 0;\n}", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/js/components/Main/Header/Header.module.scss":
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./resources/js/components/Main/Header/Header.module.scss ***!
-  \***************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var escape = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "/* roboto-regular - cyrillic_latin */\n@font-face {\n  font-family: \"Roboto\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Roboto\"), local(\"Roboto-Regular\"), url(" + escape(__webpack_require__(/*! ../../../../sass/fonts/roboto-v20-cyrillic_latin-regular.woff2 */ "./resources/sass/fonts/roboto-v20-cyrillic_latin-regular.woff2")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ../../../../sass/fonts/roboto-v20-cyrillic_latin-regular.woff */ "./resources/sass/fonts/roboto-v20-cyrillic_latin-regular.woff")) + ") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n/* pt-sans-narrow-regular - latin */\n@font-face {\n  font-family: \"PT Sans Narrow\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"PT Sans Narrow\"), local(\"PTSans-Narrow\"), url(" + escape(__webpack_require__(/*! ../../../../sass/fonts/pt-sans-narrow-v11-latin-regular.woff2 */ "./resources/sass/fonts/pt-sans-narrow-v11-latin-regular.woff2")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ../../../../sass/fonts/pt-sans-narrow-v11-latin-regular.woff */ "./resources/sass/fonts/pt-sans-narrow-v11-latin-regular.woff")) + ") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n.Header {\n  width: 100%;\n  background-color: #272323;\n  color: #ffffff;\n  padding: 20px 0;\n}\n.Header .title,\n.Header .desc {\n  text-transform: uppercase;\n}\n.Header .title {\n  font-size: 40px;\n  font-family: \"Roboto\", sans-serif;\n}\n.Header .title span {\n  color: #FF0000;\n}\n.Header .desc {\n  color: #707070;\n  font-size: 23px;\n  opacity: 0.7;\n}\n.Header div {\n  line-height: 1.2;\n}", ""]);
+exports.push([module.i, "/* roboto-regular - cyrillic_latin */\n@font-face {\n  font-family: \"Roboto\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Roboto\"), local(\"Roboto-Regular\"), url(\"/roboto-v20-cyrillic_latin-regular.woff2\") format(\"woff2\"), url(\"/roboto-v20-cyrillic_latin-regular.woff\") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n/* pt-sans-narrow-regular - latin */\n@font-face {\n  font-family: \"PT Sans Narrow\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"PT Sans Narrow\"), local(\"PTSans-Narrow\"), url(\"/pt-sans-narrow-v11-latin-regular.woff2\") format(\"woff2\"), url(\"/pt-sans-narrow-v11-latin-regular.woff\") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n.Footer {\n  width: 100%;\n  background-color: #272323;\n  color: #ffffff;\n  padding: 20px 0;\n}", ""]);
 
 // exports
 
@@ -6321,13 +6300,70 @@ exports.push([module.i, "/* roboto-regular - cyrillic_latin */\n@font-face {\n  
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
 exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "/* roboto-regular - cyrillic_latin */\n@font-face {\n  font-family: \"Roboto\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Roboto\"), local(\"Roboto-Regular\"), url(" + escape(__webpack_require__(/*! ../../../../sass/fonts/roboto-v20-cyrillic_latin-regular.woff2 */ "./resources/sass/fonts/roboto-v20-cyrillic_latin-regular.woff2")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ../../../../sass/fonts/roboto-v20-cyrillic_latin-regular.woff */ "./resources/sass/fonts/roboto-v20-cyrillic_latin-regular.woff")) + ") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n/* pt-sans-narrow-regular - latin */\n@font-face {\n  font-family: \"PT Sans Narrow\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"PT Sans Narrow\"), local(\"PTSans-Narrow\"), url(" + escape(__webpack_require__(/*! ../../../../sass/fonts/pt-sans-narrow-v11-latin-regular.woff2 */ "./resources/sass/fonts/pt-sans-narrow-v11-latin-regular.woff2")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ../../../../sass/fonts/pt-sans-narrow-v11-latin-regular.woff */ "./resources/sass/fonts/pt-sans-narrow-v11-latin-regular.woff")) + ") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n.Navigation {\n  background-color: #191919;\n  padding: 20px 0;\n}\n.Navigation ul,\n.Navigation li {\n  margin: 0;\n  padding: 0;\n  list-style-type: none;\n}\n.Navigation li {\n  display: inline-block;\n  font-size: 24px;\n  text-transform: uppercase;\n  padding: 0 10px;\n  margin: 0 30px;\n  border-bottom: 5px #191919 solid;\n}\n.Navigation li a {\n  color: #ffffff;\n  display: inline-block;\n  position: relative;\n}\n.Navigation li a:hover {\n  text-decoration: none;\n}\n.Navigation li:hover, .Navigation li.active {\n  border-bottom: 5px #FF0000 solid;\n}", ""]);
+exports.push([module.i, "/* roboto-regular - cyrillic_latin */\n@font-face {\n  font-family: \"Roboto\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Roboto\"), local(\"Roboto-Regular\"), url(\"/roboto-v20-cyrillic_latin-regular.woff2\") format(\"woff2\"), url(\"/roboto-v20-cyrillic_latin-regular.woff\") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n/* pt-sans-narrow-regular - latin */\n@font-face {\n  font-family: \"PT Sans Narrow\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"PT Sans Narrow\"), local(\"PTSans-Narrow\"), url(\"/pt-sans-narrow-v11-latin-regular.woff2\") format(\"woff2\"), url(\"/pt-sans-narrow-v11-latin-regular.woff\") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n.Navigation {\n  background-color: #191919;\n  padding: 20px 0;\n}\n.Navigation ul,\n.Navigation li {\n  margin: 0;\n  padding: 0;\n  list-style-type: none;\n}\n.Navigation li {\n  display: inline-block;\n  font-size: 24px;\n  text-transform: uppercase;\n  padding: 0 10px;\n  margin: 0 30px;\n  border-bottom: 5px #191919 solid;\n}\n.Navigation li a {\n  color: #ffffff;\n  display: inline-block;\n  position: relative;\n}\n.Navigation li a:hover {\n  text-decoration: none;\n}\n.Navigation li:hover, .Navigation li.active {\n  border-bottom: 5px #FF0000 solid;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/js/components/Main/Topline/Topline.module.scss":
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./resources/js/components/Main/Topline/Topline.module.scss ***!
+  \*****************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/* roboto-regular - cyrillic_latin */\n@font-face {\n  font-family: \"Roboto\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Roboto\"), local(\"Roboto-Regular\"), url(\"/roboto-v20-cyrillic_latin-regular.woff2\") format(\"woff2\"), url(\"/roboto-v20-cyrillic_latin-regular.woff\") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n/* pt-sans-narrow-regular - latin */\n@font-face {\n  font-family: \"PT Sans Narrow\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"PT Sans Narrow\"), local(\"PTSans-Narrow\"), url(\"/pt-sans-narrow-v11-latin-regular.woff2\") format(\"woff2\"), url(\"/pt-sans-narrow-v11-latin-regular.woff\") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n.Header {\n  width: 100%;\n  background-color: #272323;\n  color: #ffffff;\n  padding: 20px 0;\n}\n.Header .title,\n.Header .desc {\n  text-transform: uppercase;\n}\n.Header .title {\n  font-size: 40px;\n  font-family: \"Roboto\", sans-serif;\n}\n.Header .title span {\n  color: #FF0000;\n}\n.Header .desc {\n  color: #707070;\n  font-size: 23px;\n  opacity: 0.7;\n}\n.Header div {\n  line-height: 1.2;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/js/containers/index/IndexHeader/IndexTitle/IndexTitle.scss":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./resources/js/containers/index/IndexHeader/IndexTitle/IndexTitle.scss ***!
+  \*****************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/* roboto-regular - cyrillic_latin */\n@font-face {\n  font-family: \"Roboto\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Roboto\"), local(\"Roboto-Regular\"), url(\"/roboto-v20-cyrillic_latin-regular.woff2\") format(\"woff2\"), url(\"/roboto-v20-cyrillic_latin-regular.woff\") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n/* pt-sans-narrow-regular - latin */\n@font-face {\n  font-family: \"PT Sans Narrow\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"PT Sans Narrow\"), local(\"PTSans-Narrow\"), url(\"/pt-sans-narrow-v11-latin-regular.woff2\") format(\"woff2\"), url(\"/pt-sans-narrow-v11-latin-regular.woff\") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n.IndexTitle {\n  width: 100%;\n  color: #ffffff;\n  background-color: rgba(25, 25, 25, 0.6);\n  margin-left: 35%;\n  padding: 200px;\n}\n.IndexTitle .title,\n.IndexTitle .tagLine {\n  text-transform: uppercase;\n}\n.IndexTitle .title {\n  font-size: 73px;\n  font-family: \"Roboto\", sans-serif;\n}\n.IndexTitle .title span {\n  color: #FF0000;\n}\n.IndexTitle .tagLine {\n  font-size: 42px;\n  font-weight: bold;\n}\n.IndexTitle .desc {\n  font-size: 18px;\n  margin-top: 20px;\n}\n.IndexTitle div {\n  line-height: 1.2;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/js/containers/index/index.scss":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./resources/js/containers/index/index.scss ***!
+  \*************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var escape = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/* roboto-regular - cyrillic_latin */\n@font-face {\n  font-family: \"Roboto\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"Roboto\"), local(\"Roboto-Regular\"), url(\"/roboto-v20-cyrillic_latin-regular.woff2\") format(\"woff2\"), url(\"/roboto-v20-cyrillic_latin-regular.woff\") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n/* pt-sans-narrow-regular - latin */\n@font-face {\n  font-family: \"PT Sans Narrow\";\n  font-style: normal;\n  font-weight: 400;\n  src: local(\"PT Sans Narrow\"), local(\"PTSans-Narrow\"), url(\"/pt-sans-narrow-v11-latin-regular.woff2\") format(\"woff2\"), url(\"/pt-sans-narrow-v11-latin-regular.woff\") format(\"woff\");\n  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */\n}\n.IndexHeader {\n  background-image: url(" + escape(__webpack_require__(/*! ../../images/bg-header.jpg */ "./resources/js/images/bg-header.jpg")) + ");\n  background-color: #191919;\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: center;\n}", ""]);
 
 // exports
 
@@ -69899,66 +69935,6 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./resources/js/components/Main/Header/Header.js":
-/*!*******************************************************!*\
-  !*** ./resources/js/components/Main/Header/Header.js ***!
-  \*******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Header_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.module.scss */ "./resources/js/components/Main/Header/Header.module.scss");
-/* harmony import */ var _Header_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Header_module_scss__WEBPACK_IMPORTED_MODULE_1__);
-
-
-
-var Header = function Header() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Header text-center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "title"
-  }, "YurMar"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "desc"
-  }, "Web developing - 3D print - Video editing"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Header);
-
-/***/ }),
-
-/***/ "./resources/js/components/Main/Header/Header.module.scss":
-/*!****************************************************************!*\
-  !*** ./resources/js/components/Main/Header/Header.module.scss ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!./Header.module.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/js/components/Main/Header/Header.module.scss");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
 /***/ "./resources/js/components/Main/Navigation/Navigatiion.scss":
 /*!******************************************************************!*\
   !*** ./resources/js/components/Main/Navigation/Navigatiion.scss ***!
@@ -70025,6 +70001,147 @@ var Navigatiion = function Navigatiion() {
 
 /***/ }),
 
+/***/ "./resources/js/components/Main/Topline/Topline.js":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/Main/Topline/Topline.js ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Topline_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Topline.module.scss */ "./resources/js/components/Main/Topline/Topline.module.scss");
+/* harmony import */ var _Topline_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Topline_module_scss__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+var Topline = function Topline() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "Header text-center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "title"
+  }, "YurMar"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "desc"
+  }, "Web developing - 3D print - Video editing"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Topline);
+
+/***/ }),
+
+/***/ "./resources/js/components/Main/Topline/Topline.module.scss":
+/*!******************************************************************!*\
+  !*** ./resources/js/components/Main/Topline/Topline.module.scss ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader!../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!./Topline.module.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/js/components/Main/Topline/Topline.module.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/containers/index/IndexHeader/IndexService/IndexService.js":
+/*!********************************************************************************!*\
+  !*** ./resources/js/containers/index/IndexHeader/IndexService/IndexService.js ***!
+  \********************************************************************************/
+/*! exports provided: IndexService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IndexService", function() { return IndexService; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var IndexService = function IndexService() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Index Service");
+};
+
+/***/ }),
+
+/***/ "./resources/js/containers/index/IndexHeader/IndexTitle/IndexTitle.js":
+/*!****************************************************************************!*\
+  !*** ./resources/js/containers/index/IndexHeader/IndexTitle/IndexTitle.js ***!
+  \****************************************************************************/
+/*! exports provided: IndexTitle */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IndexTitle", function() { return IndexTitle; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _IndexTitle_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./IndexTitle.scss */ "./resources/js/containers/index/IndexHeader/IndexTitle/IndexTitle.scss");
+/* harmony import */ var _IndexTitle_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_IndexTitle_scss__WEBPACK_IMPORTED_MODULE_1__);
+
+
+var IndexTitle = function IndexTitle() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "IndexTitle"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-4"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "title"
+  }, "YurMar"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "tagLine"
+  }, "\u0414\u0435\u043B\u0430\u044E \u0441 \u0434\u0443\u0448\u043E\u0439 \u0438 \u0434\u043B\u044F \u0434\u0443\u0448\u0438"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "desc"
+  }, "\u0420\u0410\u0417\u0420\u0410\u0411\u0410\u0422\u042B\u0412\u0410\u042E \u0414\u041B\u042F \u0421\u0418\u041B\u042C\u041D\u042B\u0425 \u0418 \u041B\u0423\u0427\u0428\u0418\u0425 \u041A\u041E\u041C\u041F\u0410\u041D\u0418\u0419 \u0418 \u041B\u0418\u0427\u041D\u041E\u0421\u0422\u0415\u0419. \u041F\u0420\u0415\u0412\u0420\u0410\u0429\u0410\u042E \u0418\u0414\u0415\u0418 \u0412 \u041E\u0421\u042F\u0417\u0410\u0415\u041C\u041E\u0415")));
+};
+
+/***/ }),
+
+/***/ "./resources/js/containers/index/IndexHeader/IndexTitle/IndexTitle.scss":
+/*!******************************************************************************!*\
+  !*** ./resources/js/containers/index/IndexHeader/IndexTitle/IndexTitle.scss ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!./IndexTitle.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/js/containers/index/IndexHeader/IndexTitle/IndexTitle.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./resources/js/containers/index/index.js":
 /*!************************************************!*\
   !*** ./resources/js/containers/index/index.js ***!
@@ -70037,6 +70154,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _IndexHeader_IndexTitle_IndexTitle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./IndexHeader/IndexTitle/IndexTitle */ "./resources/js/containers/index/IndexHeader/IndexTitle/IndexTitle.js");
+/* harmony import */ var _IndexHeader_IndexService_IndexService__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./IndexHeader/IndexService/IndexService */ "./resources/js/containers/index/IndexHeader/IndexService/IndexService.js");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.scss */ "./resources/js/containers/index/index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_3__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -70057,6 +70178,9 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+
+
+
 var Index =
 /*#__PURE__*/
 function (_Component) {
@@ -70071,13 +70195,15 @@ function (_Component) {
   _createClass(Index, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "IndexHeader"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_IndexHeader_IndexTitle_IndexTitle__WEBPACK_IMPORTED_MODULE_1__["IndexTitle"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_IndexHeader_IndexService_IndexService__WEBPACK_IMPORTED_MODULE_2__["IndexService"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row justify-content-center"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-md-12"
-      })));
+      }))));
     }
   }]);
 
@@ -70085,6 +70211,36 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 
+
+/***/ }),
+
+/***/ "./resources/js/containers/index/index.scss":
+/*!**************************************************!*\
+  !*** ./resources/js/containers/index/index.scss ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/src??ref--7-2!../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!./index.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/js/containers/index/index.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
 
 /***/ }),
 
@@ -70100,7 +70256,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Layout; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Main_Header_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Main/Header/Header */ "./resources/js/components/Main/Header/Header.js");
+/* harmony import */ var _components_Main_Topline_Topline__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Main/Topline/Topline */ "./resources/js/components/Main/Topline/Topline.js");
 /* harmony import */ var _components_Main_Footer_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Main/Footer/Footer */ "./resources/js/components/Main/Footer/Footer.js");
 /* harmony import */ var _components_Main_Navigation_Navigation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Main/Navigation/Navigation */ "./resources/js/components/Main/Navigation/Navigation.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -70140,7 +70296,7 @@ function (_Component) {
   _createClass(Layout, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Main_Header_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Main_Navigation_Navigation__WEBPACK_IMPORTED_MODULE_3__["default"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", null, this.props.children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Main_Footer_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null)));
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Main_Topline_Topline__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Main_Navigation_Navigation__WEBPACK_IMPORTED_MODULE_3__["default"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", null, this.props.children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Main_Footer_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null)));
     }
   }]);
 
@@ -70148,6 +70304,17 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 
+
+/***/ }),
+
+/***/ "./resources/js/images/bg-header.jpg":
+/*!*******************************************!*\
+  !*** ./resources/js/images/bg-header.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/bg-header.jpg?6c89fd05bcabcaa49e9f9326a46997ea";
 
 /***/ }),
 
@@ -70256,50 +70423,6 @@ function unregister() {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./resources/sass/fonts/pt-sans-narrow-v11-latin-regular.woff":
-/*!********************************************************************!*\
-  !*** ./resources/sass/fonts/pt-sans-narrow-v11-latin-regular.woff ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/pt-sans-narrow-v11-latin-regular.woff?b7ed38087559d9362d906b1a18330dfc";
-
-/***/ }),
-
-/***/ "./resources/sass/fonts/pt-sans-narrow-v11-latin-regular.woff2":
-/*!*********************************************************************!*\
-  !*** ./resources/sass/fonts/pt-sans-narrow-v11-latin-regular.woff2 ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/pt-sans-narrow-v11-latin-regular.woff2?3cb787e72f6fa50684873ddb2718559f";
-
-/***/ }),
-
-/***/ "./resources/sass/fonts/roboto-v20-cyrillic_latin-regular.woff":
-/*!*********************************************************************!*\
-  !*** ./resources/sass/fonts/roboto-v20-cyrillic_latin-regular.woff ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/roboto-v20-cyrillic_latin-regular.woff?c2bf54bc567401239fcc81b063df7423";
-
-/***/ }),
-
-/***/ "./resources/sass/fonts/roboto-v20-cyrillic_latin-regular.woff2":
-/*!**********************************************************************!*\
-  !*** ./resources/sass/fonts/roboto-v20-cyrillic_latin-regular.woff2 ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/fonts/roboto-v20-cyrillic_latin-regular.woff2?9af3b948743adc65907bf6b73aba735e";
 
 /***/ }),
 

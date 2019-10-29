@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Header from '../../components/Main/Header/Header'
+import Topline from '../../components/Main/Topline/Topline'
 import Footer from '../../components/Main/Footer/Footer'
 import Navigatiion from '../../components/Main/Navigation/Navigation'
 
@@ -8,7 +8,7 @@ export default class Layout extends Component {
         return (
             <div>
                 <header>
-                    <Header />
+                    <Topline />
                     <Navigatiion />
                 </header>
 
