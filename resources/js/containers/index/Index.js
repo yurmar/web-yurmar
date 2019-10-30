@@ -2,6 +2,7 @@ import React, {Component, Fragment} from 'react'
 import {IndexTitle} from './IndexHeader/IndexTitle/IndexTitle'
 import {IndexService} from './IndexHeader/IndexService/IndexService'
 import './index.scss'
+import 'font-awesome/css/font-awesome.min.css'
 
 export default class Index extends Component {
     render() {

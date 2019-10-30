@@ -1,10 +1,30 @@
 import React, {Fragment} from 'react'
-import './Navigatiion.scss'
+import './Navigation.scss'
 
-const Navigatiion = () => {
+const Navigation = props => {
+    const cls = [
+        'd-block',
+        'd-sm-block',
+        'd-md-none',
+        'NavigationMobile',
+        'fa'
+    ]
+
+    if (props.isOpen) {
+        cls.push('fa-times')
+        cls.push('open')
+    } else {
+        cls.push('fa-bars')
+    }
+
     return (
         <Fragment>
-            <nav className="Navigation text-center">
+            <i
+                className={cls.join(' ')}
+                onClick={props.onToggle}
+            />
+
+            <nav className="Navigation text-center d-none d-md-block">
                 <ul>
                     <li className="active" ><a href="#">Главная</a></li>
                     <li><a href="#">Портфолио</a></li>
@@ -17,4 +37,4 @@ const Navigatiion = () => {
     )
 }
 
-export default Navigatiion
+export default Navigation
