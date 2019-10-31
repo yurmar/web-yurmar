@@ -70051,7 +70051,7 @@ var Footer = function Footer() {
     className: "container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "React.YurMar v.1.0.0"));
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "React.YurMar v.1.4.0 Update 31 Oct 2019 16:25"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
