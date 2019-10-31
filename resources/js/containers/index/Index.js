@@ -8,9 +8,16 @@ export default class Index extends Component {
     render() {
         return (
             <Fragment>
-                <div className="IndexHeader">
+                <div className="IndexHeader" style={{backgroundImage: "url(../../images/bg-header.jpg)"}}>
                     <IndexTitle />
-                    <IndexService />
+                    <div className="IndexService container">
+                        <div className="row">
+                            <IndexService />
+                            <IndexService />
+                            <IndexService />
+                        </div>
+                    </div>
+
                 </div>
                 <div className="container">
                     <div className="row justify-content-center">

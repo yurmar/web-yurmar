@@ -1,29 +1,65 @@
 // Body
 $body-bg: #f8fafc;
 
-/* roboto-regular - cyrillic_latin */
+/* roboto-regular - latin */
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
+    src: url('~/Roboto/roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
     src: local('Roboto'), local('Roboto-Regular'),
-    url('~/roboto-v20-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('~/roboto-v20-cyrillic_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url('~/Roboto/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('~/Roboto/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('~/Roboto/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('~/Roboto/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('~/Roboto/roboto-v20-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
 }
 
-/* pt-sans-narrow-regular - latin */
+/* pt-sans-narrow-regular - latin_cyrillic */
 @font-face {
     font-family: 'PT Sans Narrow';
     font-style: normal;
     font-weight: 400;
+    src: url('~/PtSansNarrow/pt-sans-narrow-v11-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
     src: local('PT Sans Narrow'), local('PTSans-Narrow'),
-    url('~/pt-sans-narrow-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('~/pt-sans-narrow-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url('~/PtSansNarrow/pt-sans-narrow-v11-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('~/PtSansNarrow/pt-sans-narrow-v11-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('~/PtSansNarrow/pt-sans-narrow-v11-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+    url('~/PtSansNarrow/pt-sans-narrow-v11-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('~/PtSansNarrow/pt-sans-narrow-v11-latin_cyrillic-regular.svg#PTSansNarrow') format('svg'); /* Legacy iOS */
+}
+/* pt-sans-narrow-700 - latin_cyrillic */
+@font-face {
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 700;
+    src: url('~/PtSansNarrow/pt-sans-narrow-v11-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+    src: local('PT Sans Narrow Bold'), local('PTSans-NarrowBold'),
+    url('~/PtSansNarrow/pt-sans-narrow-v11-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('~/PtSansNarrow/pt-sans-narrow-v11-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('~/PtSansNarrow/pt-sans-narrow-v11-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+    url('~/PtSansNarrow/pt-sans-narrow-v11-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('~/PtSansNarrow/pt-sans-narrow-v11-latin_cyrillic-700.svg#PTSansNarrow') format('svg'); /* Legacy iOS */
+}
+
+/* dorsa-regular - latin */
+@font-face {
+    font-family: 'Dorsa';
+    font-style: normal;
+    font-weight: 400;
+    src: url('~/Dorsa/dorsa-v10-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Dorsa'), local('Dorsa-Regular'),
+    url('~/Dorsa/dorsa-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('~/Dorsa/dorsa-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('~/Dorsa/dorsa-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('~/Dorsa/dorsa-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('~/Dorsa/dorsa-v10-latin-regular.svg#Dorsa') format('svg'); /* Legacy iOS */
 }
 
 // Typography
 $roboto-font: 'Roboto', sans-serif;
 $font-family-sans-serif: 'PT Sans Narrow', sans-serif;
+$dorsa: 'Dorsa', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
@@ -41,4 +77,5 @@ $cyan: #6cb2eb;
 $black: #191919;
 $dark: #272323;
 $gray: #707070;
+$white: #ffffff;
 
