@@ -9,7 +9,7 @@ const Footer = () => {
 
                 </div>
             </div>
-            <div>React.YurMar v.1.0.0</div>
+            <div>React.YurMar v.1.4.0 Update 31.01.2019 16:25</div>
         </div>
 
     )
